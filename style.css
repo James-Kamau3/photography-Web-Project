@@ -5,7 +5,7 @@
   align-items: center;
   max-width: 100%;
   gap: 30px;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
   
@@ -23,7 +23,7 @@
     background-color: rgba(190, 191, 255, 0.986);
     
   }
-  
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -35,32 +35,43 @@
     left: 0;
     width: 100%;
     z-index: 1;
-    flex-wrap: nowrap;
-    }
+  }
+  
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+    
+  }
+  
+  nav h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+
   img {
     height: 50px;
     margin-right: 10px;
     }
-
-    nav li {
-    margin-left: 20px;
-    }
-   
-   
 
 h1{
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-style: italic;
+    margin-left: 30px;
 
 }
 
 #article{
-    margin-right: 30px;
     font-style: italic;
     font-size: 15px;
     font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    margin-left: 250px;
     
 
 }
@@ -68,7 +79,7 @@ h1{
 #h3{
     font-size: 25px;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
 }
 
@@ -124,7 +135,8 @@ footer{
 }
 
 nav h1{
-  text-align: center;
+    margin-top: 0;
+    text-align: center;
 }
 
 .search{
@@ -137,7 +149,7 @@ nav h1{
   justify-content: center;
   margin-bottom: 25px;
   column-gap: 10px;
-  margin-right: 400px;
+  margin-right: 300px;
 }
 
 form {
@@ -179,7 +191,7 @@ ul{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 300px;
-  margin-right: 20px;
+  margin-left: 100px;
   
 }
 
@@ -197,7 +209,24 @@ footer {
 }
 
 .links3{
-  margin-right: 200px;
+  margin-left: 5px;
+  margin-right: 100px;
 }
 
+.nameDisp{
+  font-size: 20px;
+  font-weight: 550;
+}
 
+#btn1{
+margin-right: 20px;
+margin-top: 15px;
+margin-bottom: 1px;
+padding: 6px;
+background-color: rgba(228, 0, 0, 0.685);
+font-weight: 800;
+box-shadow: #486572;
+cursor: pointer;
+
+  
+}
