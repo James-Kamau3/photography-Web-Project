@@ -25,6 +25,11 @@ commentBtn.addEventListener('submit', (event) => {
   event.preventDefault();
 })
 
+const link = document.querySelector('.links1');
+link.addEventListener('click', (event) => {
+  event.preventDefault();
+})
+
 
 
 

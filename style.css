@@ -179,7 +179,7 @@ ul{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 300px;
-  margin-right: 250px;
+  margin-right: 20px;
   
 }
 
@@ -194,6 +194,10 @@ footer {
 
 .links1, .links2 {
   flex-basis: 45%;
+}
+
+.links3{
+  margin-right: 200px;
 }
 
 
