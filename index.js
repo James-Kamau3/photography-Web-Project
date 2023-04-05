@@ -9,7 +9,7 @@ form.addEventListener('submit', (event) => {
   
   const query = userInput.value; // Extract user input from form
   
-  fetch(`https://api.unsplash.com/search/photos/?client_id=${accessKey}&query=${query}`)
+  fetch(`https://api.unsplash.com/search/photos/?client_id=${accessKey}&query=${query}&orientation=landscape`)
     .then(response => response.json())
     .then(data => {
       const randomIndex = Math.floor(Math.random() * data.results.length);
