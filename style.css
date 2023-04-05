@@ -41,24 +41,12 @@
     height: 50px;
     margin-right: 10px;
     }
-    nav ul {
-    display: flex;
-    list-style: none;
-    margin: 10;
-    padding: 10;
-    }
+
     nav li {
     margin-left: 20px;
     }
-    nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    }
-    nav a:hover {
-    color: #f00;
-    }
+   
+   
 
 h1{
     font-size: 40px;
@@ -176,7 +164,7 @@ img {
   color: black;
 }
 
-.links{
+footer{
   background-color: rgb(236, 234, 234);
 }
 
@@ -186,4 +174,26 @@ ul{
   font-style: italic;
   font-weight: 800;
 }
+
+.links2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 300px;
+  margin-right: 250px;
+  
+}
+
+#fname{
+  padding-bottom: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links1, .links2 {
+  flex-basis: 45%;
+}
+
 

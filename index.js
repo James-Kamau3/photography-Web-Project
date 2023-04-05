@@ -3,6 +3,7 @@ const img1 = document.getElementById('img1');
 const form = document.getElementById('form');
 const userInput = document.getElementById('userInput');
 
+
 // Event listeners for submit button not to reload page
 form.addEventListener('submit', (event) => {
   event.preventDefault(); 
@@ -18,6 +19,15 @@ form.addEventListener('submit', (event) => {
     })
     .catch(error => console.log(error));
 });
+
+const commentBtn = document.getElementById('submittBtn');
+commentBtn.addEventListener('submit', (event) => {
+  event.preventDefault();
+})
+
+
+
+
 
 
         
