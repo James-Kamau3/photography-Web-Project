@@ -1,14 +1,13 @@
 .images {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 180px;
-    display: flex;  
-    flex-wrap: wrap;  
-    justify-content: space-between;  
-    align-items: center; 
-    max-width: 100%;
-    gap: 30px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 30px;
+  margin-top: 200px;
+}
+
   
   .images img {
     width: 350px;
@@ -87,22 +86,26 @@ h1{
 
 footer{
   align-items: center;
+  
 }
 
 #form{
-  margin-left: 400px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
 }
 
 #label{
   font-size: 20px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 3px;
   
 }
 
 #submitBtn{
-  margin-top: 10px;
+  margin-top: 1px;
   padding: 10px;
   border-radius: 10px;
   color: rgb(33, 33, 116);
@@ -111,7 +114,7 @@ footer{
 }
 
 #userInput{
-  margin-top: 10px;
+  margin-top: 3px;
   padding: 10px;
   font-size: 18px;
 
@@ -121,7 +124,12 @@ footer{
   margin-top: 100px;
 }
 #img1{
-  margin-left: 400px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+
+
 }
 #submitBtn:hover {
   background-color: #486572
@@ -129,6 +137,43 @@ footer{
 
 nav h1{
   text-align: center;
+}
+
+.search{
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  column-gap: 10px;
+  margin-right: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, button {
+  margin-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+#submitBtn:hover{
+  cursor: pointer;
+}
+.images {
+  position: relative;
+  text-align: center;
+  color: black;
 }
 
 
