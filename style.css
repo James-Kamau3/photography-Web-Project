@@ -10,8 +10,8 @@
 
   
   .images img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin-right: 10px;
 
   }
@@ -122,7 +122,7 @@ footer{
 #img1{
   margin-left: 50px;
   margin-top: 30px;
-  width: 400px;
+  width: 500px;
   height: auto;
 
 
@@ -247,8 +247,8 @@ body{
 
 .images > div {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -277,5 +277,5 @@ body{
 }
 
 .images > div:hover .nameDisp {
-  bottom: -40px;
+  bottom: -30px;
 }
