@@ -1,3 +1,8 @@
+const body = document.querySelector('body')
+body.addEventListener('DOMContentLoaded', () => {
+
+})
+
 const accessKey = 'AF4Ld6qkMDBIh2RixfCUufgf9TX3SHZggBjPOdk_1YE';
 const img1 = document.getElementById('img1');
 const form = document.getElementById('form');
