@@ -19,10 +19,7 @@
     box-shadow:0px  10px 10px 0px;
 
 }
-  body{
-    background-color: rgba(190, 191, 255, 0.986);
-    
-  }
+
 
   nav {
     display: flex;
@@ -223,10 +220,62 @@ margin-right: 20px;
 margin-top: 15px;
 margin-bottom: 1px;
 padding: 6px;
-background-color: rgba(228, 0, 0, 0.685);
+background-color: rgba(42, 0, 228, 0.822);
 font-weight: 800;
 box-shadow: #486572;
 cursor: pointer;
-
   
+}
+
+
+
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+body{
+  background-color: rgb(188, 188, 255);
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images > div {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.images > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.images > div:hover img {
+  transform: scale(1.2);
+}
+
+.images > div .nameDisp {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.2em;
+  transition: bottom 0.2s ease-in-out;
+}
+
+.images > div:hover .nameDisp {
+  bottom: -40px;
 }
